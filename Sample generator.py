@@ -26,7 +26,7 @@ while True:
         count += 1
 
         
-        cv2.imwrite("Your //face Samples Folder Path." + str(face_id) + '.' + str(count) + ".jpg", converted_image[y:y+h,x:x+w]) #C://.........//samples////face
+        cv2.imwrite("Your //face Samples Folder Path." + str(face_id) + '.' + str(count) + ".jpg", converted_image[y:y+h,x:x+w]) #.........//samples////face
   
 
         cv2.imshow('image', img) 
