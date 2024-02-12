@@ -6,6 +6,10 @@ Face_Recogniton Using python-cv2
 # Please First Watch This Video To Solve This error: (-215:Assertion failed) !empty() in function 'cv::CascadeClassifier::detectMultiScale
   https://youtu.be/mNJ2BzTRDQw?si=_dLevhDgWXbCaBfT
 
+https://github.com/Unkown-Bug/Face_Recognition/blob/ba3a29110dddfaa7f0edd4edf1d89e0e2f9e7bf7/Sample%20generator.py#L8
+
+Write full address Start from Drive
+
 ## Abot This Project
 
 Face recognition projects involve developing systems or algorithms capable of identifying or verifying individuals by analyzing and comparing patterns based on their facial features. These projects typically utilize computer vision, machine learning, and deep learning techniques to extract, analyze, and recognize facial features from images or video frames.
