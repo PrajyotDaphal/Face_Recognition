@@ -1,5 +1,5 @@
 # Face_Recognition
-![image](https://github.com/Unkown-Bug/Face_Recognition/assets/87372653/68de8fab-d774-42f0-947f-c70c0802ce3d)
+![image](https://github.com/Unkown-Bug/Face_Recognition/assets/87372653/d4c2fb62-81ba-4314-84d2-c9514b2d0784)
 
 Face_Recogniton Using python-cv2
 
