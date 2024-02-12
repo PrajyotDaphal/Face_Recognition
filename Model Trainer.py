@@ -5,7 +5,8 @@ import os
 path = 'Your //samples Folder Path' 
 
 recognizer = cv2.face.LBPHFaceRecognizer_create() # Local Binary Patterns Histograms
-detector = cv2.CascadeClassifier("Your haarcascade_frontalface_default.xml File Path")
+detector = cv2.CascadeClassifier("Your haarcascade_frontalface_default.xml File Path") #C://.......//haarcascade_frontalface_default.xml
+
 
 
 
@@ -34,6 +35,6 @@ print ("Training faces. It will take a few seconds. Wait ...")
 faces,ids = Images_And_Labels(path)
 recognizer.train(faces, np.array(ids))
 
-recognizer.write('Your trainer.yml File Path ')  
+recognizer.write('Your trainer.yml File Path ')  #C://...........trainer//trainer.yml
 
 print("Model trained, Now we can recognize your face.")
