@@ -5,7 +5,7 @@ cam.set(3, 640) # set video FrameWidth
 cam.set(4, 480) # set video FrameHeight
 
 
-detector = cv2.CascadeClassifier('Your //haarcascade_frontalface_default.xml File Path')
+detector = cv2.CascadeClassifier('Your //haarcascade_frontalface_default.xml File Path') #C://.......//haarcascade_frontalface_default.xml
 
 
 face_id = input("Enter a Numeric user ID  here:  ")
@@ -26,7 +26,7 @@ while True:
         count += 1
 
         
-        cv2.imwrite("Your //face Samples Folder Path." + str(face_id) + '.' + str(count) + ".jpg", converted_image[y:y+h,x:x+w])
+        cv2.imwrite("Your //face Samples Folder Path." + str(face_id) + '.' + str(count) + ".jpg", converted_image[y:y+h,x:x+w]) #C://.........//samples////face
   
 
         cv2.imshow('image', img) 
