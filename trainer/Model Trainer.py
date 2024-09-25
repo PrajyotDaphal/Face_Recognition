@@ -2,16 +2,16 @@ import cv2
 import numpy as np
 from PIL import Image #pillow package
 import os
-path = 'Your //samples Folder Path' 
+path = 'sample\\' 
 
 recognizer = cv2.face.LBPHFaceRecognizer_create() # Local Binary Patterns Histograms
-detector = cv2.CascadeClassifier("Your haarcascade_frontalface_default.xml File Path") #C://.......//haarcascade_frontalface_default.xml
+detector = cv2.CascadeClassifier("Data\\haarcascade_frontalface_default.xml")
 
 
 
 
 def Images_And_Labels(path): 
-    paths = 'Your //samples Folder Path'
+    paths = 'samples\\'
     imagePaths = [os.path.join(path,f) for f in os.listdir(paths)]     
     faceSamples=[]
     ids = []
@@ -35,6 +35,6 @@ print ("Training faces. It will take a few seconds. Wait ...")
 faces,ids = Images_And_Labels(path)
 recognizer.train(faces, np.array(ids))
 
-recognizer.write('Your trainer.yml File Path ')  #..........//trainer//trainer.yml
+recognizer.write('Data\\trainer.yml')
 
 print("Model trained, Now we can recognize your face.")

@@ -4,7 +4,7 @@ def face_recognition():
 
  recognizer = cv2.face.LBPHFaceRecognizer_create() # Local Binary Patterns Histograms
  recognizer.read('Your trainer.yml File Path')  
- cascadePath = "your haarcascade_frontalface_default.xml File Path" #C://.......//haarcascade_frontalface_default.xml
+ cascadePath = "Data\\haarcascade_frontalface_default.xml"
  faceCascade = cv2.CascadeClassifier(cascadePath) 
 
  font = cv2.FONT_HERSHEY_SIMPLEX 
